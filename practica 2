@@ -1,13 +1,1 @@
-сreate table usr ( id bigserial not null, email varchar(64) not null, first_name varchar(64) not null, last_name varchar(64) not null, middle_name varchar(64) not null );
-insert intoschema_13.usr (first_name, middle_name, last_name, email) 
-values('Алексей', 'Игоревич','Смирнов','smirnov@my.example.com'),
-('Дмитрий','Андреевич','Кузнецов','kuznetsov@my.example.com'),
-('Сергей','Владимирович','Попов','popov@my.example.com'),
-('Максим','Олегович','Васильев','vasiliev@my.example.com'),
-('Андрей','Сергеевич','Новиков','novikov@my.example.com'),
-('Роман','Денисович', 'Фёдоров', 'fedorov@my.example.com'),
-('Никита','Павлович', 'Морозов', 'morozov@my.example.com'),
-('Егор','Алексеевич', 'Волков', 'volkov@my.example.com'),
-('Тимофей','Михайлович', 'Соловьёв','soloviev@my.example.com'),
-('Владислав','Романович', 'Лебедев', 'lebedev@my.example.com');
-SELECT * FROM schema_13."Table"
+
